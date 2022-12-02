@@ -1,0 +1,47 @@
+body{
+    background-image: url(../image/imadon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    margin:60px;
+}
+
+
+#titre1{
+    text-align: center;
+    background-color: #d1a71c;
+    color: white;
+    height: 70px;
+    width:  450px;
+    border-radius: 12px;
+    margin: auto;
+    border: solid #f5ba08;
+    font-size: 15px;
+    }
+
+#textecheque{
+    margin: 80px;
+    font-size: 25px;
+}
+#adresse{
+    text-align: center;
+    font-size: 40px;
+}
+#carte{
+    text-align: center;
+}
+.agrandir{
+    width: 250px;
+    height: 30px;
+}
+.agrandir1{
+    width: 100px;
+    height: 30px;
+}
+.valid{
+    font-size: 20px;
+    font-style: oblique;
+}
+.numero .date .mois .crypto{
+
+}
