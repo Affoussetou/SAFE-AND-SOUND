@@ -1,27 +1,5 @@
 
 
-/* ul {
-    list-style-type: none;
-    margin: 20px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #052533;
-    font-size: 20px;
- }
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
-/*li a:hover {
-    background-color: #111;
-}*/
-
 body{
     background-color: #d5ecf2;
     font-family: 'Times New Roman', Times, serif;
@@ -88,7 +66,14 @@ a:hover {
         margin-top: 8px;
         color: white;
     }
-
+#compte1{
+        background-color:  #EFF6E0;
+        height: 350px;
+        width: 650px;
+        text-align: center;
+        margin-left:280px;
+        margin-top: 20px;
+    }
 
 #titre1{
     text-align: center;
@@ -99,6 +84,8 @@ a:hover {
     border-radius: 12px;
     margin: auto;
     border: solid;
+    margin-top: 50px;
+
     }
 
 
