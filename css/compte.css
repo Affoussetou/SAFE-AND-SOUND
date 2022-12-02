@@ -1,0 +1,29 @@
+body{
+    background-color: #214e5f;
+    font-size: 25px;
+}
+
+#compte{
+    background-color:  #EFF6E0;
+    height: 600px;
+    width: 650px;
+    text-align: center;
+    margin-left:280px;
+}
+
+.agrandir{
+    width: 300px;
+    height: 30px;
+}
+.prenom{
+    margin-left: 50px;
+}
+.nom{
+    margin-left: 75px;
+}
+.email{
+    margin-left: 65px;
+}
+input[type=checkbox] {
+    accent-color: red;
+  }
