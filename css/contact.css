@@ -1,8 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../image/fondecrandon1.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #d5ecf2;
     
 }
 
@@ -67,56 +65,3 @@ a:hover {
       margin-top: 8px;
       color: white;
   }
-
-
-#titre2{
-        background-color: rgb(235, 44, 27);
-        color: rgb(13, 17, 26);
-        height: 70px;
-        width: 750px;
-        border-radius: 12px;
-        margin-top: 20px;
-        margin-left: 22%;
-        border: solid rgb(154, 29, 17);
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-}
-
-h4{
-    font-size: 30px;
-    text-align: center;
-}
-
-#paiement{
-    display: flex;
-    flex-direction: row;
-}
-
-.CB, .cheque {
-    padding-top: 15px;
-    text-align: center;
-    background-color: #d1a71c;
-    height: 50px;
-    width: 350px;
-    border-radius: 12px;
-    margin: auto;
-    border: solid #f5ba08;
-    font-size: 30px;
-}
-
-p{
-    font-size: 15px;
-    text-align: center;
-    font-style: italic;
-}
-
-#info{
-    
-    text-align: center;
-
-
-}
-
