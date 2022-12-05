@@ -1,7 +1,7 @@
 
 body{
     background-color: #FFF9F9;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
 }
 
 #entete{
@@ -22,7 +22,7 @@ body{
 
 .titre{
     font-size: 70px;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
 }
 .don{
@@ -39,7 +39,7 @@ body{
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -79,6 +79,7 @@ a:hover {
 #quiSommesNousImg {
     margin: 3em;
     width: 45vw;
+    height: 52vw;
     padding: 1em;
 }
 
