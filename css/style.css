@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+body{
+    background-image: url(logo2.jpg);
+    opacity: 0.3;
+}
+=======
 #carte{
     display: flex;
     justify-content: center;
@@ -18,3 +24,4 @@
 
 
 
+>>>>>>> 3e0fd2ae24856945c7f12a1cff69db62e2b83bf8

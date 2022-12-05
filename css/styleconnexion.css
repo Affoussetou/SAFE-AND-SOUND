@@ -73,6 +73,7 @@ a:hover {
         text-align: center;
         margin-left:280px;
         margin-top: 20px;
+        padding-top: 20px;
     }
 
 #titre1{
@@ -84,8 +85,6 @@ a:hover {
     border-radius: 12px;
     margin: auto;
     border: solid;
-    margin-top: 50px;
-
     }
 
 

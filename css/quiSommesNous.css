@@ -1,3 +1,175 @@
-body {
+
+body{
     background-color: #FFF9F9;
+    font-family: 'Inter', sans-serif;
+}
+
+#entete{
+    background-color: #2198CB;
+    /* opacity: 70%; */
+    border: 3px solid #1e4656;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap:wrap;
+    justify-content:space-around; 
+    align-items: center;
+    margin: auto;
+    color: #FFF7DF;
+}
+.titre{
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+}
+.don{
+    /* background-color: #f64f12;
+    padding: 20px;
+    border: 2px solid;
+    border: #f64f12;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: ; */
+}
+
+#barre{
+    background-color: #052533;
+    opacity: 60%;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.accueil, .sommes, .demarche, .contact, .connecter{
+    margin-left: 70px;
+    margin-top: 8px;
+    color: white;
+}
+
+
+a:link {
+    color: #FFF7DF;
+    text-decoration: none;
+    }
+a:visited {
+    color: white;
+    text-decoration: none;
+    } 
+a:hover {
+    color: #f64f12;
+    text-decoration: none;
+    }
+
+
+.cgu, .plandusite, .reseauxsociaux {
+        margin-left: 250px;
+        margin-top: 8px;
+        color: white;
+    }
+
+
+
+    /*
+a:active {
+    color: rgb(173, 173, 178);
+    text-decoration: none;
+    }
+*/
+
+/*ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #052533;
+    font-size: 20px;
+ }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}*/
+
+#quiSommesNousDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#quiSommesNousImg {
+    margin: 1em;
+    width: 35vw;
+    padding: 1em;
+    border: 2px #c3002a solid
+    ;
+}
+
+#quiSommesNousAsi {
+    width: 50vw;
+    margin-top: -2%;
+    margin-right: 5%;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+
+#votreDon {
+    text-align: left;
+}
+
+P {
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.gridContainerVotreDon {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gridImage {
+    display: block;
+    width: 20wv;
+    padding: 10%;
+
+}
+
+.gridParagraph {
+    padding: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#gridSecondParagraph {
+    text-align: right;
+    justify-content: center;
+    margin-top: 12%;
+    margin-left: 3%;
 }

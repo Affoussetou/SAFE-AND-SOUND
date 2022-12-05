@@ -1,14 +1,12 @@
 body {
     background-image: url(../image/Fond\ d\'ecran\ page\ d\'accueil.jpg);
-    background-color:white;
-    
+    background-color: white;
+
     background-repeat: no-repeat;
-    background-size: cover;
-
-
 }
 
-p{
+
+p {
     color: white;
 }
 
@@ -76,7 +74,6 @@ image {
 
     display: flex;
     justify-content: space-around
-    
 }
 
 h1 {
@@ -85,9 +82,7 @@ h1 {
     color: white;
 }
 
-p {
-    color:white;
-}    
+
 
 
 
@@ -112,5 +107,5 @@ a:hover {
 .reseauxsociaux {
     margin-left: 250px;
     margin-top: 8px;
-    color: white;
+    color: white
 }
