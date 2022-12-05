@@ -1,3 +1,9 @@
+
+body{
+    background-image: url(logo2.jpg);
+    opacity: 0.3;
+}
+
 #carte{
     display: flex;
     justify-content: center;
@@ -15,6 +21,6 @@
     display: flex;
     justify-content: center;
     }
-}
+
 
 
