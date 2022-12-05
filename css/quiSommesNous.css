@@ -24,6 +24,8 @@ body{
     font-size: 70px;
     font-weight: 400;
     text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
 }
 .don{
     padding-top: 15px;
@@ -79,7 +81,7 @@ a:hover {
 #quiSommesNousImg {
     margin: 3em;
     width: 45vw;
-    height: 52vw;
+    height: 58vw;
     padding: 1em;
 }
 
