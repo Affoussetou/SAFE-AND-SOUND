@@ -75,75 +75,53 @@ a:hover {
         color: white;
     }
 
-
-
-    /*
-a:active {
-    color: rgb(173, 173, 178);
-    text-decoration: none;
-    }
-*/
-
-/*ul {
-    list-style-type: none;
-    margin: 20px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #052533;
-    font-size: 20px;
- }
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #111;
-}*/
-
 #quiSommesNousDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 #quiSommesNousImg {
-    margin: 1em;
-    width: 35vw;
+    margin: 3em;
+    width: 45vw;
     padding: 1em;
-    border: 2px #c3002a solid
-    ;
 }
 
 #quiSommesNousAsi {
     width: 50vw;
-    margin-top: -2%;
-    margin-right: 5%;
+    padding: 2em;
+    text-align: justify;
+    margin-top: 2%;
+    margin-right: 8%;
+}
+
+.quiSommesNousAsiP {
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 3%;
+    margin-right: 25%;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 h2 {
     font-size: 3em;
     text-align: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 4%;
 }
 
 #votreDon {
     text-align: left;
 }
 
-P {
+.generalP {
+    text-align: justify;
     padding: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    font-size: 1em;
+    margin-right: 4%;
+    margin-left: 2%;
     line-height: 1.5em;
 }
 
@@ -153,23 +131,24 @@ P {
 }
 
 .gridImage {
-    display: block;
-    width: 20wv;
-    padding: 10%;
-
+    width: 93%;
+    margin-left: 7%;
 }
 
-.gridParagraph {
-    padding: 2%;
-    padding-right: 10%;
-    padding-left: 10%;
+#gridParagraph {
+    text-align: justify;
+    padding-right: 9%;
+    margin-top: 12%;
+    padding-left: 8%;
     font-size: 1em;
     line-height: 1.5em;
 }
 
 #gridSecondParagraph {
-    text-align: right;
+    text-align: justify;
     justify-content: center;
-    margin-top: 12%;
-    margin-left: 3%;
+    margin-top: 13%;
+    margin-right: 10%;
+    margin-left: 9%;
+    line-height: 1.5em;
 }
