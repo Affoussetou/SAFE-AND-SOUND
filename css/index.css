@@ -1,9 +1,8 @@
 body {
-    background-image: url(../image/Fond\ d\'ecran\ page\ d\'accueil.jpg);
+    background-image: url(../image/2020-08-31-iss-today-missing-persons-banner.webp);
     background-color:white;
-    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
 
 }
