@@ -76,17 +76,17 @@
         <div class="infoDeclarant">
             <h3>LIEN AVEC LA PERSONNE DISPARUE</h3>
             <br>
-            <input type="radio" name="lien" value="parent" style="font-size: 30p">
-            <label for="parent">Parent</label>
+            <input class="inputRadio" type="radio" name="lien" value="parent" style="font-size: 30p">
+            <label class="labelRadio" for="parent">Parent</label>
             <br>
-            <input type="radio" name="lien" value="grand-parent">
-            <label for="grand-parent">Grand-parent</label>
+            <input class="inputRadio" type="radio" name="lien" value="grand-parent">
+            <label class="labelRadio" for="grand-parent">Grand-parent</label>
             <br>
-            <input type="radio" name="lien" value="enfant">
-            <label for="enfant">Enfant</label>
+            <input class="inputRadio" type="radio" name="lien" value="enfant">
+            <label class="labelRadio" for="enfant">Enfant</label>
             <br>
-            <input type="radio" name="lien" value="autre">
-            <label for="autre">Autre</label>
+            <input class="inputRadio" type="radio" name="lien" value="autre">
+            <label class="labelRadio" for="autre">Autre</label>
             <br>
             <textarea name="autre" id="autre" cols="30" rows="5" placeholder="Si autre, merci de préciser"></textarea>
         </div>
@@ -117,6 +117,9 @@
             <textarea name="la disparition" id="conditions disparition" cols="30"
                 rows="5" placeholder="Conditions de la disparition"></textarea>
         </div>
+
+        <input id="declarationSendButton" type="submit">
+
     </section>
 
     <footer>
