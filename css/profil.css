@@ -20,11 +20,9 @@ body {
 
 .titre {
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
-    letter-spacing: 3px;
-    word-spacing: 3px;
-}
+    }
 
 .don {
     padding-top: 15px;
@@ -32,7 +30,6 @@ body {
 
 #barre {
     background-color: #0e3240;
-    opacity: 60%;
     width: 100%;
     height: 40px;
     font-size: 20px;
@@ -40,7 +37,7 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     margin-top: 20px;
 }
 
@@ -72,13 +69,6 @@ a:hover {
 }
 
 
-.cgu,
-.plandusite,
-.reseauxsociaux {
-    margin-left: 250px;
-    margin-top: 8px;
-    color: white;
-}
 
 h2 {
     font-size: 3em;
@@ -169,3 +159,33 @@ label {
     width: 20%;
     justify-self: center;
   }
+
+  /* FOOTER */
+  
+  #coordonnée{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0e3240;
+    width: 100%;
+    height: 150hv;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin-top: 5%;
+  }
+
+
+  #barre1{
+    background-color: #0e3240;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 5px;
+  }
+
