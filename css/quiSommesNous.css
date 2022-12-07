@@ -1,7 +1,7 @@
 
 body{
-    background-color: #FFF9F9;
-    font-family: 'Inter', sans-serif;
+    background-color: #F0F6F8;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #entete{
@@ -16,7 +16,7 @@ body{
     justify-content:space-around; 
     align-items: center;
     margin: auto;
-    color: #FFF7DF;
+    color: white;
 }
 
 
