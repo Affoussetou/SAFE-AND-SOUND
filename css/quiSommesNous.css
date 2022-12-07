@@ -19,7 +19,6 @@ body{
     color: white;
 }
 
-
 .titre{
     font-size: 70px;
     font-weight: 400;
@@ -27,6 +26,7 @@ body{
     letter-spacing: 3px;
     word-spacing: 3px;
 }
+
 .don{
     padding-top: 15px;
 }
@@ -45,13 +45,11 @@ body{
     margin-top: 20px;
 }
 
-
 .accueil, .sommes, .demarche, .contact, .connecter{
     margin-left: 70px;
     margin-top: 8px;
     color: white;
 }
-
 
 a:link {
     color: #FFF7DF;
@@ -65,7 +63,6 @@ a:hover {
     color: #f64f12;
     text-decoration: none;
     }
-
 
 .cgu, .plandusite, .reseauxsociaux {
         margin-left: 250px;

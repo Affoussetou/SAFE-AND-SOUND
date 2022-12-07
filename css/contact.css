@@ -1,11 +1,11 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #d5ecf2;
-    
+  background-color: #F0F6F8;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #entete{
   background-color: #2c738d;
+  /* opacity: 70%; */
   border: 3px solid #1e4656;
   width: 100%;
   height: 150px;
@@ -17,18 +17,22 @@ body{
   margin: auto;
   color: white;
 }
+
 .titre{
   font-size: 70px;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 3px;
 }
+
 .don{
   padding-top: 15px;
 }
 
-
 #barre{
   background-color: #0e3240;
+  opacity: 60%;
   width: 100%;
   height: 40px;
   font-size: 20px;
@@ -36,18 +40,18 @@ body{
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   margin-top: 20px;
 }
+
 .accueil, .sommes, .demarche, .contact, .connecter{
   margin-left: 70px;
   margin-top: 8px;
   color: white;
 }
 
-
 a:link {
-  color: rgb(254, 252, 252);
+  color: #FFF7DF;
   text-decoration: none;
   }
 a:visited {
@@ -55,13 +59,86 @@ a:visited {
   text-decoration: none;
   } 
 a:hover {
-  color: rgb(246, 79, 18);
+  color: #f64f12;
   text-decoration: none;
   }
-
 
 .cgu, .plandusite, .reseauxsociaux {
       margin-left: 250px;
       margin-top: 8px;
       color: white;
   }
+
+  h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+
+.contactForm {
+  background-color: white;
+  border: solid 2px #0e3240;
+  border-radius: 25px;
+  padding: 3em;
+  padding-left: 5%;
+  margin: 5%;
+  margin-right: 18%;
+  margin-left: 18%;
+}
+
+.inputContact {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F6F8;
+  width: 70%;
+  margin: 1%;
+  margin-left: 14%;
+  padding: 1em;
+  box-sizing: border-box;
+  border: solid 2px #0e3240;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F6F8;
+  width: 70%;
+  margin: 1%;
+  margin-left: 14%;
+  padding: 1em;
+  box-sizing: border-box;
+  border: solid 2px #0e3240;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+  font-family: 'Times New Roman', Times, serif;
+  ;
+  color: #0e3240;
+  font-size: 1.5em;
+  margin-left: 15%;
+}
+
+#sendButton {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #2c738d;
+  color: white;
+  border: 2px solid #1e4656;
+  border-radius: 12px;
+  margin: 3%;
+  margin-left: 38%;
+  width: 20%;
+  justify-self: center;
+}
