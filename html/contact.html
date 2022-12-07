@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faire un don</title>
-    <link rel="stylesheet" href="../css/faireundon.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <header>
     <div id="entete">
         <div class="logo">
-        <img src="../image/logo.jpg" alt="logo" width="120" ></div>
+            <img src="../image/logo.jpg" alt="logo" width="120">
+        </div>
         <div class="titre">
-        SAFE & SOUND   </div>
+            SAFE & SOUND </div>
         <div class="don">
-        <a href="../html/faireundon.html"><img src="../image/don1.jpg" alt="don" width="140" > </a></div>
+            <a href="../html/faireundon.html"><img src="../image/don1.jpg" alt="Je fais un don" width="140"></a>
+            <!-- <a href="don1.jpg">Je fais un don</a> -->
+            <!-- <img src="image/don1.jpg" alt="Faire un don" width="140""> -->
+        </div>
     </div>
 </header>
 
 <nav>
     <div id="barre">
         <div class="accueil">
-        <a href="../html/index.html">ACCUEIL</a></div>
+            <a href="../html/index.html">ACCUEIL</a>
+        </div>
         <div class="sommes">
-        <a href="../html/sommesnous.html">QUI SOMMES-NOUS ?</a></div>
+            <a href="../html/sommesnous.html">QUI SOMMES-NOUS ?</a>
+        </div>
         <div class="demarche">
-        <a href="../html/profil.html">VOS DEMARCHES</a></div>
+            <a href="../html/profil.html">VOS DEMARCHES</a>
+        </div>
         <div class="contact">
-        <a href="../html/contact.html">CONTACTS</a></div>
+            <a href="../html/contact.html">CONTACTS</a>
+        </div>
         <div class="connecter">
-        <a href="../html/connexion.html">SE CONNECTER</a></div>
+            <a href="../html/connexion.html">SE CONNECTER</a>
+        </div>
     </div>
 </nav>
 
-
-<body>
-    
-    <div id="titre2">
-    <H1> SOUTENEZ NOUS EN FAISANT UN DON </H1></div>
-    <H4> MODE DE REGLEMENT</H4>
-<div id="paiement">
-<div class="CB">
-    <a href="../html/carteCB.html">paiement par carte</a></div>
- <div class="cheque"> 
-    <a href="../html/chéque.html">paiement par chéque</a></div> 
-</div> </br>
-<p>Après déduction fiscale, mon don de 50 € me revient à 13 €
-    Déduction de 75% dans la limite dans la limite de 537 € par an, lorsque vos dons dépassent le plafond de cette réduction, les sommes restantes sont éligibles à une réduction de 66 %
-    </p></br>
-
-<div id="info"> 
-    <p> Soutenir l’association SAFE AND SOUND c’est : 
-        Accompagner et guider les familles d’enfants disparus.
-        Développer des actions de prévention pour agir contre les disparitions de mineurs.</p>
-</div>
-</div>
+<h2>Contact</h2>
+<section class="contactForm">
+    <form action="input" method="get"></form>
+    <label for="nom">Nom</label>
+    <br>
+    <input class="inputContact" type="text" placeholder="Nom">
+    <br>
+    <label for="prénom">Prénom</label>
+    <br>
+    <input class="inputContact" type="text" placeholder="Prénom">
+    <br>
+    <label id="inputEmail" for="email">E-mail</label>
+    <br>
+    <input class="inputContact" type="email" placeholder="Votre e-mail">
+    <br>
+    <label for="Votre message">Votre message</label>
+    <br>
+    <textarea name="votre message" id="description disparu" cols="30" rows="5"
+        placeholder="Votre message ici"></textarea>
+    <br>
+    <input id="sendButton" type="submit">
+</section>
 
 <footer>
     <div id="coordonnée">
@@ -89,10 +99,10 @@
             <img src="../image/icons8-twitter-entouré-80.png" alt="email" width="35">  </p>
         </div>
     </div>
-    
+ 
     </footer>
 
 
-
 </body>
+
 </html>

@@ -1,82 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="../css/profil.css">
-    <title>MON PROFIL</title>
+    <title>Déclarant.e</title>
 </head>
+
 <body>
-    <div id="monprofil">
-    <h1>MON PROFIL</h1>
-</div>
-<section id="infos">
-<div id="vous">
-<h2>INFORMATIONS VOUS CONCERNANT</h2>
-<form action="input" method="get"></form>
-<label for="nom">Nom</label>
-<br>
-<input type="text" placeholder="Nom">
-<br>
-<label for="prénom">Prénom</label>
-<br>
-<input type="text" placeholder="Prénom">
-<br>
-<label for="adresse">Adresse</label>
-<br>
-<input type="text" placeholder="Votre Adresse">
-<br>
-<input type="text">
-<label for="email">E-mail</label>
-<br>
-<input type="email" placeholder="Votre e-mail">
-<br>
-<label for="tel">Votre numéro de téléphone</label>
-<br>
-<input type="tel" placeholder="N°téléphone">
-<br>
-<h3>Lien avec la personne disparue</h3>
-<br>
-<input type="radio" name="lien" value="parent" style="font-size: 30p"> 
-<label for="parent">Parent</label>
-<br>
-<input type="radio" name="lien" value="grand-parent">
-<label for="grand-parent">Grand-parent</label>
-<br>
-<input type="radio" name="lien" value="enfant"> 
-<label for="enfant">Enfant</label>
-<br>
-<input type="radio" name="lien" value="autre"> 
-<label for="autre">Autre</label>
-<br>
-<textarea name="autre" id="autre" cols="30" rows="5">Si autre, merci de préciser</textarea>
-</div>
-<div id="disparu">
-<h2>INFORMATIONS CONCERNANT LA PERSONNE DISPARUE</h2>
-    <form action="input" method="get"></form>
-    <label for="nom">Nom</label>
-    <br>
-    <input type="text" placeholder="Nom">
-    <br>
-    <label for="prénom">Prénom</label>
-    <br>
-    <input type="text" placeholder="Prénom">
-    <br>
-    <label for="datedenaissance">Date de naissance</label>
-    <br>
-    <input type="date" name="Date de naissance">
-    <br>
-    <!-- <input type="text" name="description disparu">  -->
-    <label for="description disparu">Description de la personne recherchée</label>
-    <br>
-    <textarea name="description disparu" id="description disparu" cols="30" rows="5">Décrivez la personne recherchée</textarea>
-    <br>
-    <!-- <input type="text" name="conditions disparition">  -->
-    <label for="conditions disparition">Les conditions de la disparition</label>
-    <br>
-    <textarea name="la disparition" id="conditions disparition" cols="30" rows="5">Conditions de la disparition</textarea>
-</div>
-</section>
+    <header>
+        <div id="entete">
+            <div class="logo">
+                <img src="../image/logo.jpg" alt="logo" width="120">
+            </div>
+            <div class="titre">
+                SAFE & SOUND </div>
+            <div class="don">
+                <a href="../html/faireundon.html"><img src="../image/don1.jpg" alt="Je fais un don" width="140"></a>
+                <!-- <a href="don1.jpg">Je fais un don</a> -->
+                <!-- <img src="image/don1.jpg" alt="Faire un don" width="140""> -->
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div id="barre">
+            <div class="accueil">
+                <a href="../html/index.html">ACCUEIL</a>
+            </div>
+            <div class="sommes">
+                <a href="../html/sommesnous.html">QUI SOMMES-NOUS ?</a>
+            </div>
+            <div class="demarche">
+                <a href="../html/profil.html">VOS DEMARCHES</a>
+            </div>
+            <div class="contact">
+                <a href="../html/contact.html">CONTACTS</a>
+            </div>
+            <div class="connecter">
+                <a href="../html/connexion.html">SE CONNECTER</a>
+            </div>
+        </div>
+    </nav>
+
+    <h2>Déclarant.e.</h2>
+
+    <section id="infos">
+        <div class="infoDeclarant">
+            <h3>INFORMATIONS VOUS CONCERNANT</h3>
+            <form action="input" method="get"></form>
+            <label for="nom">Nom</label>
+            <br>
+            <input class="inputDeclaration" type="text" placeholder="Nom">
+            <br>
+            <label for="prénom">Prénom</label>
+            <br>
+            <input class="inputDeclaration" type="text" placeholder="Prénom">
+            <br>
+            <label for="adresse">Adresse</label>
+            <br>
+            <input class="inputDeclaration" type="text" placeholder="Votre Adresse">
+            <input class="inputDeclaration" type="text" placeholder="Complément d'Adresse">
+            <br>
+            <label id="inputEmail" for="email">E-mail</label>
+            <br>
+            <input class="inputDeclaration" type="email" placeholder="Votre e-mail">
+            <br>
+            <label for="tel">Votre numéro de téléphone</label>
+            <br>
+            <input class="inputDeclaration" type="tel" placeholder="N°téléphone">
+            <br>
+        </div>
+        <div class="infoDeclarant">
+            <h3>LIEN AVEC LA PERSONNE DISPARUE</h3>
+            <br>
+            <input class="inputRadio" type="radio" name="lien" value="parent" style="font-size: 30p">
+            <label class="labelRadio" for="parent">Parent</label>
+            <br>
+            <input class="inputRadio" type="radio" name="lien" value="grand-parent">
+            <label class="labelRadio" for="grand-parent">Grand-parent</label>
+            <br>
+            <input class="inputRadio" type="radio" name="lien" value="enfant">
+            <label class="labelRadio" for="enfant">Enfant</label>
+            <br>
+            <input class="inputRadio" type="radio" name="lien" value="autre">
+            <label class="labelRadio" for="autre">Autre</label>
+            <br>
+            <textarea name="autre" id="autre" cols="30" rows="5" placeholder="Si autre, merci de préciser"></textarea>
+        </div>
+        <div class="infoDeclarant">
+            <h3>INFORMATIONS CONCERNANT LA PERSONNE DISPARUE</h3>
+            <form action="input" method="get"></form>
+            <label for="nom">Nom</label>
+            <br>
+            <input class="inputDeclaration" type="text" placeholder="Nom">
+            <br>
+            <label for="prénom">Prénom</label>
+            <br>
+            <input class="inputDeclaration" type="text" placeholder="Prénom">
+            <br>
+            <label for="datedenaissance">Date de naissance</label>
+            <br>
+            <input class="inputDeclaration" type="date" name="Date de naissance">
+            <br>
+            <!-- <input type="text" name="description disparu">  -->
+            <label for="description disparu">Description de la personne recherchée</label>
+            <br>
+            <textarea name="description disparu" id="description disparu" cols="30"
+                rows="5" placeholder="Décrivez la personne recherchée"></textarea>
+            <br>
+            <!-- <input type="text" name="conditions disparition">  -->
+            <label for="conditions disparition">Les conditions de la disparition</label>
+            <br>
+            <textarea name="la disparition" id="conditions disparition" cols="30"
+                rows="5" placeholder="Conditions de la disparition"></textarea>
+        </div>
+
+        <input id="declarationSendButton" type="submit">
+
+    </section>
+
+    <footer>
+        <div id="coordonnée">
+            <div class="titcon"> 
+                <h3>Pour nous contacter :</h3> 
+                <p> <img src="../image/adresse.png" alt="tel" width="25">SAFE & SOUND  <br>
+                 57 boulevard de Strasbourg <br>
+                 59000 Lille </p>
+                <p> <img src="../image/phone.png" alt="tel" width="25"> 07 80 67 98 45 </p>
+                <p> <img src="../image/email.png" alt="email" width="25"> contacts@safe&sound.fr </p>
+            </div>
+       
+    
+            <div class="ouverture"> 
+                <h3>Horaires d'ouverture de l'agence :</h3> 
+                <p> Mardi au Samedi : 10h à 18h <br>
+                    Dimanche et Lundi : Fermé <br><br>
+                    Vous pouvez nous joindre sur notre plateforme <BR>
+                     24h /24  7j/7 au 123 000</p>
+            </div>
+    
+            <div class="A PROPOS"> 
+                <h3>A propos :</h3> 
+                <p> Mentions légales<br><br>
+                 Politique de confidentialité </p>
+            </div>
+    
+            <div class="réseaux"> 
+                <h3>Suivez notre actualité sur :</h3> 
+                <p> <img src="../image/icons8-facebook-96.png" alt="faceb" width="35"> 
+                <img src="../image/icons8-instagram-96.png" alt="insta" width="35"> 
+                <img src="../image/icons8-twitter-entouré-80.png" alt="email" width="35">  </p>
+            </div>
+        </div>
+    
+        </footer>
+    
+    
 </body>
+
 </html>
