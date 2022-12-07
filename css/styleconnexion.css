@@ -61,11 +61,7 @@ a:hover {
     }
 
 
-.cgu, .plandusite, .reseauxsociaux {
-        margin-left: 250px;
-        margin-top: 8px;
-        color: white;
-    }
+
 #compte1{
         background-color:  #EFF6E0;
         height: 350px;
@@ -117,7 +113,6 @@ a:hover {
 
 
 
-
 .agrandir{
     width: 300px;
     height: 30px;
@@ -126,4 +121,34 @@ a:hover {
     width: 200px;
     height: 30px;
 }
+
+/* FOOTER */
+
+#coordonnée{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0e3240;
+    width: 100%;
+    height: 150hv;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin-top: 25%;
+  }
+
+
+  #barre1{
+    background-color: #0e3240;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 5px;
+  }
+
 
