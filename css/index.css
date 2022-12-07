@@ -1,15 +1,108 @@
 body {
-    background-image: url(../image/Fond\ d\'ecran\ page\ d\'accueil.jpg);
-    background-color:white;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #f0f6f8;
 
 }
 
-p{
+
+
+
+
+.slideshow-container {
+    width: 100vw;
+    position: relative;
+    margin: auto;
+    padding: 22px;
+    height: 200%;
+}
+
+.mySlides {
+    display: flex;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-inline-start: 22px;
+    padding: 22px;
     color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+aside {
+    color: #100f0f;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+
+
+
+p {
+    color: #052533;
+
 }
 
 
@@ -42,7 +135,7 @@ p{
 
 #barre {
     background-color: #052533;
-    width: 100%;
+    width: 150%;
     height: 40px;
     font-size: 20px;
     text-align: justify;
@@ -61,6 +154,7 @@ p{
     margin-left: 70px;
     margin-top: 8px;
     color: white;
+
 }
 
 .row {
@@ -76,18 +170,21 @@ image {
 
     display: flex;
     justify-content: space-around
-    
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #100f0f;
 }
 
-p {
-    color:white;
-}    
+p {
+    color: #100f0f;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+
+}
 
 
 

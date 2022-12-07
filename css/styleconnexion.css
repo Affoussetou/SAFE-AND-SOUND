@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: #d5ecf2;
+    background-color:#f0f6f8;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -30,7 +30,7 @@ body{
 
 #barre{
     background-color: #0e3240;
-    width: 100%;
+    width: 150%;
     height: 40px;
     font-size: 20px;
     text-align: justify;
