@@ -100,15 +100,13 @@ h4{
     font-size: 30px;
 }
 
-p{
-    font-size: 15px;
-    text-align: center;
-    font-style: italic;
+#fiscal{
+  font-style: italic;
 }
-
 #info{
-    
-    text-align: center;
+  text-align: center;
+  font-size: large;
+  font-size: 30px;
 }
 
 /* FOOTER */
@@ -123,7 +121,7 @@ p{
   font-size: 20px;
   text-align: justify;
   color: white;
-  margin-top: 25%;
+  margin-top: 5%;
 }
 
 

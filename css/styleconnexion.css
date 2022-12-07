@@ -1,5 +1,4 @@
 
-
 body{
 
     background-color:#f0f6f8
@@ -67,7 +66,9 @@ a:hover {
 
 
 #compte1{
-        background-color:  #EFF6E0;
+        background-color:  white;
+        border: solid 2px #0e3240;
+        border-radius: 10px;
         height: 350px;
         width: 650px;
         text-align: center;
@@ -138,7 +139,7 @@ a:hover {
     font-size: 20px;
     text-align: justify;
     color: white;
-    margin-top: 25%;
+    margin-top: 5%;
   }
 
 
