@@ -73,13 +73,32 @@ a:hover {
 {
     width: 400px;
     height: 30px;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
 }
 
 .agrandir1
 {
     width: 200px;
     height: 30px;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
 }
+
+#lien a:link {
+    color: rgb(53, 52, 52);
+    text-decoration: none;
+    }
+#lien a:visited{
+    color: rgb(55, 54, 54);
+    text-decoration: none;
+    } 
+#lien a:hover {
+    color: rgb(246, 79, 18);
+    text-decoration: none;
+    }
+
+
 
 /* FOOTER */
 #coordonnée{
