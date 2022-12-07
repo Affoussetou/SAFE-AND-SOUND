@@ -73,12 +73,16 @@ a:hover {
 {
     width: 400px;
     height: 30px;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
 }
 
 .agrandir1
 {
     width: 200px;
     height: 30px;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
 }
 
 /* FOOTER */
