@@ -75,7 +75,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 40px;
     margin-top: 10px;
 }
 
@@ -154,6 +153,8 @@ a:hover {
 }
 
 .flex {
+    color: white;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center
