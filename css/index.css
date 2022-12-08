@@ -3,20 +3,57 @@ body {
     background-color: #f0f6f8;
 }
 
-
-
-
-
-.slideshow-container {
-    width: 100vw;
-    position: relative;
+#entete {
+    background-color: #2198cb;
+    border: 3px solid #1e4656;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     margin: auto;
-    padding: 22px;
-    height: 200%;
+    color: white;
 }
 
-.mySlides {
+.titre {
+    font-size: 70px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.don {
+    padding-top: 15px;
+}
+
+#barre {
+    background-color: #052533;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.accueil,
+.sommes,
+.demarche,
+.contact,
+.connecter {
+    margin-left: 70px;
+    margin-top: 8px;
+    color: white;
+
+}
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
 }
 
 .prev,
@@ -35,12 +72,10 @@ body {
     user-select: none;
 }
 
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
 
 .prev:hover,
 .next:hover {
@@ -65,7 +100,6 @@ body {
     position: absolute;
     top: 0;
 }
-
 
 .dot {
     cursor: pointer;
@@ -92,9 +126,9 @@ body {
 aside {
     color: #100f0f;
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
+    padding: 3%;
+    font-size: 1.6em;
     font-style: italic;
-
 }
 
 #disparitions {
@@ -103,62 +137,9 @@ aside {
 
 
 
-
-
-
-#entete {
-    background-color: #2198cb;
-    border: 3px solid #1e4656;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    color: white;
-}
-
-.titre {
-    font-size: 70px;
-    font-weight: 200;
-    text-align: center;
-}
-
-.don {
-    padding-top: 15px;
-}
-
-
-#barre {
-    background-color: #052533;
-    width: 150%;
-    height:100%;
-    font-size: 20px;
-    text-align: justify;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.accueil,
-.sommes,
-.demarche,
-.contact,
-.connecter {
-    margin-left: 70px;
-    margin-top: 8px;
-    color: white;
-
-}
-
 .row {
     display: flex;
     
-
 }
 
 .column {
@@ -168,9 +149,8 @@ aside {
 }
 
 image {
-
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 h1 {
@@ -180,14 +160,9 @@ h1 {
 }
 
 p {
-
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
-    
-
 }
-
-
 
 a:link {
     color: rgb(254, 252, 252);
@@ -218,7 +193,6 @@ a:hover {
     color: white;
     margin-top: 5%;
 }
-
 
 #barre1 {
     background-color: #0e3240;
