@@ -28,6 +28,9 @@ body{
     font-size: 40px;
 }
 #carte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 .agrandir{
@@ -42,6 +45,6 @@ body{
     font-size: 20px;
     font-style: oblique;
 }
-.numero .date .mois .crypto{
-
+.numero, .date, .mois, .crypto, .valid{
+        margin: 1%;
 }
