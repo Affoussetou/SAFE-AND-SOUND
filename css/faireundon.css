@@ -76,6 +76,7 @@ a:hover {
 h1{
     font-size: 30px;
     text-align: center;
+    color : white
 }
 
 h4{
@@ -91,17 +92,20 @@ h4{
 .CB, .cheque {
     padding-top: 15px;
     text-align: center;
-    background-color: #d1a71c;
+    background-color: #676661;
     height: 50px;
     width: 350px;
     border-radius: 12px;
     margin: auto;
-    border: solid #f5ba08;
+    border: solid #5d5d5b;
     font-size: 30px;
 }
 
 #fiscal{
   font-style: italic;
+  background-color: rgb(229, 224, 224);
+  font-size: 20px;
+  text-align: center;
 }
 #info{
   text-align: center;
