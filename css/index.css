@@ -4,20 +4,10 @@ body {
     width: 100vw;
 }
 
-
-
-
-
 .slideshow-container {
-    width: 100vw;
+    width: 100%;
     position: relative;
     margin: auto;
-    padding: 22px;
-    height: 200%;
-}
-
-.mySlides {
-    display: flex;
 }
 
 .prev,
@@ -36,12 +26,10 @@ body {
     user-select: none;
 }
 
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
 
 .prev:hover,
 .next:hover {
@@ -66,7 +54,6 @@ body {
     position: absolute;
     top: 0;
 }
-
 
 .dot {
     cursor: pointer;
@@ -93,19 +80,19 @@ body {
 aside {
     color: #100f0f;
     font-family: 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     font-size:large;
     font-style:italic;
+=======
+    font-size: x-large;
+    font-style: italic;
+>>>>>>> 290cb8972c98d71df66de6322b711be07f46754f
 
 }
 
 #disparitions {
     color: black;
 }
-
-
-
-
-
 
 #entete {
     background-color: #2198cb;
@@ -131,11 +118,10 @@ aside {
     padding-top: 15px;
 }
 
-
 #barre {
     background-color: #052533;
     width: 150%;
-    height:100%;
+    height: 100%;
     font-size: 20px;
     text-align: justify;
     color: white;
@@ -158,8 +144,6 @@ aside {
 
 .row {
     display: flex;
-    
-
 }
 
 .column {
@@ -169,7 +153,6 @@ aside {
 }
 
 image {
-
     display: flex;
     justify-content: space-around
 }
@@ -181,14 +164,9 @@ h1 {
 }
 
 p {
-
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
-    
-
 }
-
-
 
 a:link {
     color: rgb(254, 252, 252);
@@ -219,7 +197,6 @@ a:hover {
     color: white;
     margin-top: 5%;
 }
-
 
 #barre1 {
     background-color: #0e3240;
