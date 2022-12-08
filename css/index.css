@@ -4,6 +4,53 @@ body {
     width: 100vw;
 }
 
+#entete {
+    background-color: #2198cb;
+    border: 3px solid #1e4656;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.titre {
+    font-size: 70px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.don {
+    padding-top: 15px;
+}
+
+#barre {
+    background-color: #052533;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.accueil,
+.sommes,
+.demarche,
+.contact,
+.connecter {
+    margin-left: 70px;
+    margin-top: 8px;
+    color: white;
+
+}
 .slideshow-container {
     width: 100%;
     position: relative;
@@ -80,13 +127,9 @@ body {
 aside {
     color: #100f0f;
     font-family: 'Times New Roman', Times, serif;
-<<<<<<< HEAD
     font-size:large;
     font-style:italic;
-=======
-    font-size: x-large;
-    font-style: italic;
->>>>>>> 290cb8972c98d71df66de6322b711be07f46754f
+    
 
 }
 
@@ -94,56 +137,11 @@ aside {
     color: black;
 }
 
-#entete {
-    background-color: #2198cb;
-    border: 3px solid #1e4656;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    color: white;
-}
 
-.titre {
-    font-size: 70px;
-    font-weight: 200;
-    text-align: center;
-}
-
-.don {
-    padding-top: 15px;
-}
-
-#barre {
-    background-color: #052533;
-    width: 150%;
-    height: 100%;
-    font-size: 20px;
-    text-align: justify;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.accueil,
-.sommes,
-.demarche,
-.contact,
-.connecter {
-    margin-left: 70px;
-    margin-top: 8px;
-    color: white;
-
-}
 
 .row {
     display: flex;
+    
 }
 
 .column {
@@ -154,7 +152,7 @@ aside {
 
 image {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 h1 {
