@@ -38,7 +38,7 @@ body{
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   margin-top: 20px;
 }
 .accueil, .sommes, .demarche, .contact, .connecter{

@@ -133,14 +133,14 @@ aside {
 
 #barre {
     background-color: #052533;
-    width: 100%;
-    height: 40px;
+    width: 150%;
+    height:100%;
     font-size: 20px;
     text-align: justify;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     margin-top: 20px;
 }
 

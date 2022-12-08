@@ -28,7 +28,7 @@ body {
     padding-top: 15px;
 }
 
-#barre{
+#barre {
     background-color: #0e3240;
     width: 100%;
     height: 40px;
@@ -37,39 +37,45 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     margin-top: 20px;
-  }
-  .accueil, .sommes, .demarche, .contact, .connecter{
+}
+
+.accueil,
+.sommes,
+.demarche,
+.contact,
+.connecter {
     margin-left: 70px;
     margin-top: 8px;
     color: white;
-  }
-  
-  
-  a:link {
+}
+
+
+a:link {
     color: rgb(254, 252, 252);
     text-decoration: none;
-    }
-  a:visited {
+}
+
+a:visited {
     color: white;
     text-decoration: none;
-    } 
-  a:hover {
+}
+
+a:hover {
     color: rgb(246, 79, 18);
     text-decoration: none;
-    }
+}
 
 #conteneur {
-    width: 1150px;
+    width: 1500px;
     height: 700px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 150px;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 #tchat {
@@ -81,46 +87,80 @@ body {
     justify-content: space-between;
     background-color: #1e4656;
     color: aliceblue;
+    padding: 20px;
+}
+
+#tchat h3{
     text-align: center;
 }
 
+.tchat-text1{
+    text-align: left;
+    background: rgb(106, 210, 106);
+    border-radius: 10px;
+    margin-right : 30px;
+    padding: 10px;
+}
+.tchat-text2{
+    text-align: left;
+    background: rgb(210, 106, 106);
+    border-radius: 10px;
+    margin-left : 30px;
+    padding: 10px;
+}
+
+
+
 #texte {
     margin-block-end: 20px;
-    height: 50px;
+    height: 100px;
     width: 300px;
     margin: 50px;
-    background-color: #2c738d;
+    background-color: #5d899a;
 }
 
 
 #img {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
+    border: 4px solid #2c738d;
+    height: 400px;
+    width: 400px;
+
 }
 
 #photo {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .hauteur {
-    margin: 8px;
+    margin: 15px;
 }
 
 #presentation {
     border: 1px solid black;
-    height: 300px;
-    width: 350px;
+    height: 650px;
+    width: 400px;
     background-color: #2c738d;
+    padding: 20px;
+    font-weight: bold;
+}
 
+#presentation-info-disparu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .flex {
+    color: white;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center
 }
+
+
 
 #coordonnée{
     display: flex;
@@ -134,7 +174,6 @@ body {
     color: white;
     margin-top: 5%;
   }
-
 
   #barre1{
     background-color: #0e3240;
