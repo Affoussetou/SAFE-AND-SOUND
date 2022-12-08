@@ -37,7 +37,7 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -88,6 +88,7 @@ a:hover {
     justify-content: space-between;
     background-color: #1e4656;
     color: aliceblue;
+    padding: 20px;
 }
 
 #tchat h3{
