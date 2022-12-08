@@ -1,7 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f0f6f8;
-    width: 100vw;
 }
 
 #entete {
@@ -127,10 +126,8 @@ body {
 aside {
     color: #100f0f;
     font-family: 'Times New Roman', Times, serif;
-    font-size:large;
-    font-style:italic;
-    
-
+    padding: 3%;
+    font-size: 1.6em;
 }
 
 #disparitions {
